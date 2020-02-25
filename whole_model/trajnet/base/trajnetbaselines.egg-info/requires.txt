@@ -1,0 +1,13 @@
+numpy
+pykalman
+python-json-logger
+scipy
+torch
+trajnettools
+
+[plot]
+matplotlib
+
+[test]
+pylint
+pytest

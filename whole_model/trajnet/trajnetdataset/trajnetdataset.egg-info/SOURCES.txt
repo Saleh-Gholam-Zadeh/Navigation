@@ -1,0 +1,16 @@
+README.rst
+setup.py
+trajnetdataset/__init__.py
+trajnetdataset/controlled_data.py
+trajnetdataset/convert.py
+trajnetdataset/get_type.py
+trajnetdataset/interactions.py
+trajnetdataset/kalman.py
+trajnetdataset/readers.py
+trajnetdataset/scene.py
+trajnetdataset/scene_stats.py
+trajnetdataset.egg-info/PKG-INFO
+trajnetdataset.egg-info/SOURCES.txt
+trajnetdataset.egg-info/dependency_links.txt
+trajnetdataset.egg-info/requires.txt
+trajnetdataset.egg-info/top_level.txt

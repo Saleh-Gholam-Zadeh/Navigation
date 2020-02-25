@@ -1,0 +1,10 @@
+pysparkling
+scipy
+trajnettools
+
+[plot]
+matplotlib
+
+[test]
+pylint
+pytest
