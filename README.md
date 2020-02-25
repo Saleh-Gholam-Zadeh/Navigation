@@ -23,8 +23,9 @@ An alternative way is to download my anaconda virtual environment @(put address)
 If you want to use pretrained perception module (transfer-learning) use My code  in the master branch 
 
 
-1. Train a policy.
+1. Train a policy. 
 ```
+cd whole_model/CrodNav/
 python train.py --policy ours
 ```
 2. Test policies with 500 test cases.
