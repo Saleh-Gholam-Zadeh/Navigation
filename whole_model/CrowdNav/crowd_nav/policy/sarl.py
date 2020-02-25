@@ -75,7 +75,7 @@ class ValueNetwork(nn.Module):
 class SARL_modified(MultiHumanRL):
     def __init__(self):
         super().__init__()
-        self.name = 'SARL'
+        self.name = 'OURS(modified_sarl)'
 
     def configure(self, config,traj_model): # traj_model is added by saleh
         self.set_common_parameters(config)

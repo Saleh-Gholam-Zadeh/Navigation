@@ -40,7 +40,7 @@ Below are the instructions for training and testing in the “others” branch
 
 1. Train a policy.
 ```
-python train.py --policy sarl
+python train.py --policy ours
 ```
 2. Test policies with 500 test cases.
 ```
@@ -50,11 +50,11 @@ python test.py --policy sarl --model_dir data/output --phase test
 3. Run policy for one episode and visualize the result.
 ```
 python test.py --policy orca --phase test --visualize --test_case 0
-python test.py --policy sarl --model_dir data/output --phase test --visualize --test_case 0
+python test.py --policy ours --model_dir data/output --phase test --visualize --test_case 0
 ```
 4. Visualize a test case.
 ```
-python test.py --policy sarl --model_dir data/output --phase test --visualize --test_case 0
+python test.py --policy ours --model_dir data/output --phase test --visualize --test_case 0
 ```
 5. Plot training curve.
 ```

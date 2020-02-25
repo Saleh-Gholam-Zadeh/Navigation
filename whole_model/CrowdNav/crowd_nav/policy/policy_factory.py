@@ -5,4 +5,4 @@ from crowd_nav.policy.sarl import SARL_modified
 
 policy_factory['cadrl'] = CADRL
 policy_factory['lstm_rl'] = LstmRL
-policy_factory['sarl'] = SARL_modified
+policy_factory['ours'] = SARL_modified

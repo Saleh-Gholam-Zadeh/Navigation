@@ -34,9 +34,6 @@ VERSION = '0.1.0'
 
 # create model
 pool = None
-# if args.type == 'hiddenstatemlp':
-#     pool = HiddenStateMLPPooling(hidden_dim=args.hidden_dim)
-# elif args.type != 'vanilla':
 pool = Pooling(type_='directional', hidden_dim=128, cell_side=2)
 traj_model = LSTM(pool=pool,
              embedding_dim=64,
