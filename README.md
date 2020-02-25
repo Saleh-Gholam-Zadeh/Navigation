@@ -1,10 +1,11 @@
 ﻿# CrowdNav
-This repository contains the implementation of my master-thesis
+This repository contains the implementation of my master thesis.
 
 
 
 ## Setup
- Installation is nothing more than installation of these githubs
+ Installation is nothing more than installation of these githubs.
+
  a) https://github.com/vita-epfl/CrowdNav
 
  b) https://github.com/vita-epfl/trajnetplusplustools
