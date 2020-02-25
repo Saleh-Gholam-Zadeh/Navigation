@@ -20,7 +20,7 @@ An alternative way is to download my anaconda virtual environment @(put address)
 
 
 ## Getting started
-If you want to use pretrained perception module (transfer-learning) use My code  in the master branch 
+If you want to use pretrained perception module (transfer-learning) use My code  in the master branch . First you need to train a directional LSTM model using https://github.com/vita-epfl/trajnetplusplusbaselines and then put the directional.pkl.state beside the train.py 
 
 
 1. Train a policy. 
