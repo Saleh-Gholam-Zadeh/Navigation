@@ -23,21 +23,6 @@ An alternative way is to download my anaconda virtual environment @(put address)
 If you want to use pretrained perception module (transfer-learning) use My code  in the master branch 
 
 
-
-
-
-
-If you want to use pretrained perception module (transfer-learning) use My code in the master branch 
-
-If you want to train
-
-
-
-
-Below are the instructions for training and testing in the “others” branch
-
-
-
 1. Train a policy.
 ```
 python train.py --policy ours
@@ -45,7 +30,7 @@ python train.py --policy ours
 2. Test policies with 500 test cases.
 ```
 python test.py --policy orca --phase test
-python test.py --policy sarl --model_dir data/output --phase test
+python test.py --policy ours --model_dir data/output --phase test
 ```
 3. Run policy for one episode and visualize the result.
 ```
